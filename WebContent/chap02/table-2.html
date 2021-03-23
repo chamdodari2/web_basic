@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>테이블 일부셀 합치기</title>
+<style>
+table, th, td {
+	border: 1px solid #ccc;
+}
+
+th {
+	padding: 15px;
+}
+
+tr>td :nth-child(odd) {
+	width: 150px;
+} 
+/*tr>td :nth-child(even) {
+	width: 300px;
+} */									/* tr 에 있는 자식들 즁 td만 적용하기!!  */
+#aa{
+	width: 400px
+}
+
+</style>
+</head>
+<body>
+	<table>
+	<figcaption>
+	<strong>회원정보</strong>
+	<p>영남인재 회원정보입니다.</p>
+	</figcaption>
+	
+		<tr>
+			<th>이름</th>
+			<td id="aa"></td>
+			<th>연락처</th>
+			<td></td>
+		</tr>
+		<tr>
+			<th>주소</th>
+			<td id="aa"></td>
+		</tr>
+		<tr>
+			<th>자기소개</th>
+			<td id="aa"></td>
+		</tr>
+	</table>
+</body>
+</html>
