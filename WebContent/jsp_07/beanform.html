@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+
+#formArea{
+margin : auto;
+width :400px;
+border : 1px solidblack;
+
+}
+h1,fieldset{
+text-align : center;
+}
+
+</style>
+</head>
+<body>
+
+<section id = "formArea">
+
+<h1>property="*"테스트</h1>
+<form action="beanTest4.jsp" method = "POST">
+<fieldset>
+<label for="stdNo">학번 : </label><input type="text" name="stdNo" id ="stdNo"/><br>
+<label for="stdName">성명 : </label><input type="text" name="stdName" id ="stdName"/><br>
+<label for="kor">국어 : </label><input type="text" name="kor" id ="kor"/><br>
+<label for="math">수학 : </label><input type="text" name="math" id ="math"/><br>
+<label for="eng">영어 : </label><input type="text" name="eng" id ="eng"/><br>
+<br>
+<input type="submit" value="전송">
+
+
+</fieldset>
+</form>
+</section>
+
+<!-- 번호 : <input type="text" name = "stdNo">
+<br>
+성명 : <input type="text" name = "stdName">
+<br>
+국어 : <input type="text" name = "kor">
+<br>
+수학 : <input type="text" name = "math">
+<br>
+영어 : <input type="text" name = "eng">
+ -->
+
+</form>
+</body>
+</html>
