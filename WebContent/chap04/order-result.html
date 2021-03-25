@@ -39,9 +39,10 @@
 	</style>
 </head>
 <body>
+
 <div class="container">
 <h1>상품 주문서</h1>
-<form>
+<form action="order" method="get">
 <fieldset>
 <legend>개인정보</legend>
 <ul>
@@ -77,18 +78,18 @@
 <legend>주문정보</legend>
 <ul>
 <li>
-<label><input type="checkbox">과테말라 안티구아(100g) </label>
-<label><input type="number" value="0" min = "0" max="5" >개 </label>
+<label><input type="checkbox" name="guate">과테말라 안티구아(100g) </label>
+<label><input type="number" value="0" min = "0" max="5" name="guatetotal" >개 </label>
 
 </li>
 <li>
-<label> <input type="checkbox">인도네시아 만델링(100g) </label>
-<label> <input type="number" value="0" min = "0" max="5" >개 </label>
+<label> <input type="checkbox" name="mandel">인도네시아 만델링(100g) </label>
+<label> <input type="number" value="0" min = "0" max="5" name="mandeltotal">개 </label>
 
 </li>
 <li>
-<label><input type="checkbox">탐라는도다(블렌딩)(100g) </label>
-<label> <input type="number" value="0" min = "0" max="5" >개 </label>
+<label><input type="checkbox" name="tamra">탐라는도다(블렌딩)(100g) </label>
+<label> <input type="number" value="0" min = "0" max="5" name="tamratotal">개 </label>
 </li>
 </ul>
 </fieldset>
