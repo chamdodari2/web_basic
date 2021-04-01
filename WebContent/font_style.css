@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+h1{
+	color:rgb(0,200,0);
+	
+}
+p{
+	font-size: 12px;
+	margin-left:20px;
+	
+}
+
+
+h2{color:blue;}
+
+.accent{
+color:#ff0000;
+}
+img{
+	float:right;
+	margin-right:10px;
+	
+}

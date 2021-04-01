@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+    p { 
+      font-size:15px;
+      border:1px solid gray;
+      padding:10px;
+    }
+    .big-line {
+      line-height:2; 
+    }
+    .small-line {
+      line-height: 0.7;  
+      
+      
+      
+      
+    }

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@700&display=swap');
+body{
+	font-style:italic;
+}
+
+
+h2{
+	color:blue;
+}
+p{
+	font-size: 12px;
+	margin-left:20px;
+	
+}

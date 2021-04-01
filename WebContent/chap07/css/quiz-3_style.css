@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body {
+	font-family: "맑은 고딕", 돋움;
+}
+
+.container {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background: url('../images/apple-bg.jpg') no-repeat;
+	background-size: cover;
+}
+
+.content {
+	position: absolute;
+	top: 300px;
+	width: 90%;
+	padding: 10px;
+	background: rgba(255, 255, 255, .5);
+}
+
+h1 {
+	font-size: 30px;
+	text-align: center;
+}
+
+p {
+	font-size: 16px;
+	line-height: 25px;
+}
