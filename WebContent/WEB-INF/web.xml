@@ -21,11 +21,10 @@
   </error-page>
   
    <error-page>
-  <exception-type>
-  
+  <exception-type> 
   java.lang.NullPointerException</exception-type>
   <location>/error/null.jsp</location>
-  </error-page>
+  </error-page> 
   
   <servlet>
      <servlet-name>MemRegServlet</servlet-name>
