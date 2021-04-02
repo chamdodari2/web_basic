@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+div{
+	width: 300px;
+	height: 200px;
+	margin : 15px;
+	display:inline-block;
+	background:#ffd800;
+	border:2px solid;
+}
+.round1{
+	border-top-left-radius: 100px 50px;
+	border-bottom-right-radius: 50% 30%;
+	border-bottom-left-radius: 50% 30%;
+	border-top-right-radius: 50px;
+}
+
+.round2{
+	border-bottom-right-radius: 50% 30%;
+}	
+.round3{
+	border-top-right-radius: 50px;
+}
