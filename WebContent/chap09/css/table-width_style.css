@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+	font-family: "맑은 고딕","고딕","굴림";
+}
+table{
+	border-collapse: collapse;
+	width:300px;	
+}
+td{
+	padding:10px;
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+img{
+	
+	margin:10px; /* 이미지간? 여백쓰 */
+	padding:5px; /* 안쪽여백쓰?? */
+	border:1px solid black;
+	
+}
+.invisible{
+	visibility: hidden;
+}

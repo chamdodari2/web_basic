@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+	font-family:"맑은 고딕","고딕","굴림";/* 운영체제에 맑은 고딕이 있으면 그걸로 해주고 없으면 고딕으로 해줘 */
+	text-align:center;
+}
+div{
+	padding:20px;
+	width:600px;
+	margin:20px auto;
+	border:1px solid #ccc;
+	border-radius:10px;/*모서리둥글게  */
+}
+.multi{
+	-webkt-column-count:3;
+	-moz-column-count:3;
+	column-count:3;
+	-webkit-column-gqp:20px;
+	-webkit-column-rule: 2px dotted #000;
+	-moz-column-rule: 2px dotted #000;
+	column-rule: 2px dotted #000;
+	text-align: justify;/* 양쪽정렬 */
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.box1{
+	float:left;
+	background:#ffd800; /* 위드는 안먹는당 싸여있어서 */
+	top:300px;
+	width: :100px;
+	margin-right: 10px;
+	padding:20px
+	
+	
+}
+
+.box2{
+	position:relative;/* 이렇게 해주면 먹는당 */
+	left:-50px;/* 안먹는당 */
+	top:30px; /* 안먹는당 */
+	background:#0094ff;
+	width : 300px;
+	padding: 20px;
+	float:left;
+}
+relative
+absolute

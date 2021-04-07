@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body{
+	font-family:"맑은 고딕", "고딕", "굴림";
+}
+.multi{
+	-webkit-column-width:120px;
+	-moz-column-width:120px;
+	column-width: 120px;
+}

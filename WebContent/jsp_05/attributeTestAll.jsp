@@ -19,11 +19,11 @@
 %>
 </table>
 <%
-String name = (String)application.getAttributeNames()("name");
+/* String name = (String)application.getAttributeNames("name"); */
 String id = (String) application.getAttribute("id");
 
 %>
 
-<%=name %><br> <%=id  %>
+<%-- <%=name %><br> <%=id  %> --%>
 </body>
 </html>

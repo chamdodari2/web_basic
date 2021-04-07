@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+.box1{
+	float:left;
+	background:#ffd800; /* 위드는 안먹는당 싸여있어서 */
+	top:300px;
+	width: :100px;
+	margin-right: 10px;
+	padding:20px
+	
+	
+}
+.box2{
+	background:#0094ff;
+	width : 300px;
+	padding: 20px;
+	float:left;
+}
