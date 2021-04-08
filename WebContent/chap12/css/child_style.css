@@ -1,0 +1,4 @@
+@charset "UTF-8";
+ #container > ul {
+	border : 1px dotted blue;  /* #container 요소의 자식 ul 요소에 파란 1px 실선 */
+  }

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.tr1{
+	width:200px;
+	height:200px;
+	background-color:red;
+	border:1px solid black;
+	-webkit-transition:2s ease-in;
+	-moz-transition:2s ease-in;
+	-o-transition:2s ease-in;
+	transition:2s ease-in;
+	
+}
+.tr1:hover{
+	width:100px;
+	height:100px;
+	background-color: #f6e5f;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform:rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform:rotate(270deg);
+	
+}

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+a{
+	color:#333;
+	text-decoration:  none;  /* 밑줄 없애기 */
+	border: 1px solid #ccc; /* 테두리만들기 */
+	width: 120px;/*  간격넣기 앵커태그가 인라인요소여서 안먹는당 */
+	display: inline-block; /* 이렇게해야 먹ㄴ느당 */
+	text-align:  center;  /* 글자 가운데정렬 */
+	padding: 5px;/* 안쪽여백 */
+	border-radius: 5px; /* 모서리 둥글게 */
+	transition: 0.5s; /* 0.5초 뒤에 까만색되게하기 */
+}
+a:hover{
+	background-color: #000; /* 마우스 올리면 까만색으로 보이게하기 */
+	color:#fff; 
+}
